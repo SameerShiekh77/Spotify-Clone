@@ -159,3 +159,20 @@ nav ul li {
         background-color: #101010;
     }
 }
+
+@media only screen and (max-width: 720px) {
+    .icons i {
+        font-size: 1em;
+    }
+    #masterSongName {
+        position: relative;
+        left: 8em;
+    }
+    .songItemContainer::-webkit-scrollbar {
+        width: 6px;
+    }
+    .songList h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
