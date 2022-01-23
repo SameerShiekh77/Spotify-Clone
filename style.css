@@ -6,6 +6,11 @@ body {
     /* background-color: antiquewhite; */
 }
 
+.fas,
+.far {
+    font-size: 2em;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -155,24 +160,40 @@ nav ul li {
 }
 
 @media only screen and (max-width: 1100px) {
-    body {
-        background-color: #101010;
-    }
-}
-
-@media only screen and (max-width: 720px) {
-    .icons i {
-        font-size: 1em;
-    }
+    /* body {
+        background-color: black;
+    } */
     #masterSongName {
         position: relative;
-        left: 8em;
+        left: 10em !important;
     }
     .songItemContainer::-webkit-scrollbar {
-        width: 6px;
+        width: 6px !important;
     }
     .songList h1 {
         font-size: 25px;
         text-align: center;
+    }
+    .fas,
+    .far {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #masterSongName {
+        position: relative;
+        left: 10em !important;
+    }
+    .songItemContainer::-webkit-scrollbar {
+        width: 6px !important;
+    }
+    .songList h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .fas,
+    .far {
+        font-size: 1em;
     }
 }
